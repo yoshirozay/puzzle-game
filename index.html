@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#1B1613" />
+  <meta name="description" content="Tiki Lounge — six free offline puzzle games and one lounge you decorate as you play. On the App Store." />
+  <meta property="og:title" content="Tiki Lounge" />
+  <meta property="og:description" content="Six offline puzzle games. One tiki lounge you build as you play. Free on the App Store." />
+  <meta property="og:image" content="assets/brand/app-icon.png" />
+  <title>Tiki Lounge — Offline Puzzle Games</title>
+  <link rel="icon" type="image/png" href="assets/brand/app-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Totem lagoon — fixed under everything -->
+  <canvas id="lagoon" aria-hidden="true"></canvas>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Tiki Lounge home">
+      <img src="assets/brand/app-icon.png" alt="" width="40" height="40" class="brand-icon" />
+      <span class="brand-word">Tiki Lounge</span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#games">Games</a>
+      <a href="#lounge">Lounge</a>
+      <a href="#daily">Daily</a>
+    </nav>
+    <a class="btn btn-cta btn-cta-sm" href="#download" data-app-store>
+      <span class="btn-cta-label">Download</span>
+    </a>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">
+          <span class="torch-dot" aria-hidden="true"></span>
+          Free · Offline · Open late
+        </p>
+        <h1 id="hero-title">
+          Six puzzles.<br />
+          <em>One lounge.</em>
+        </h1>
+        <p class="lede">
+          Six offline puzzle games. One tiki bar you decorate as you play.
+          Win rounds to earn points — spend them on Vic’s bar, the lights, and a room that grows with you.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-cta" href="#download" data-app-store>
+            <svg class="apple-mark" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+              <path fill="currentColor" d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+            </svg>
+            <span class="btn-cta-stack">
+              <span class="btn-cta-kicker">Download on the</span>
+              <span class="btn-cta-main">App Store</span>
+            </span>
+          </a>
+          <a class="btn btn-ghost" href="#games">
+            See the games
+            <span class="chev" aria-hidden="true">↓</span>
+          </a>
+        </div>
+        <ul class="hero-pills" aria-label="Highlights">
+          <li>6 puzzle games</li>
+          <li>Free to play</li>
+          <li>Works offline</li>
+        </ul>
+      </div>
+
+      <div class="hero-sign" aria-hidden="true">
+        <img src="assets/sprites/neon-tiki-sign-glow.svg" alt="" class="neon-glow" />
+        <img src="assets/sprites/neon-tiki-sign.svg" alt="" class="neon-sign" />
+      </div>
+    </section>
+
+    <!-- THE GAMES — auto-scrolling hanging signs -->
+    <section class="rail-section" id="games" aria-labelledby="games-title">
+      <div class="section-head">
+        <p class="eyebrow">The games</p>
+        <h2 id="games-title">Six puzzles. Real gameplay.</h2>
+        <p class="section-sub">
+          Match-3, block puzzle, merge, cryptogram, nonogram, and memory.
+        </p>
+      </div>
+
+      <div class="rail-stage" id="rail-stage">
+        <div class="bamboo-rail" aria-hidden="true">
+          <div class="bamboo-rod"></div>
+          <div class="bamboo-ring bamboo-ring-l"></div>
+          <div class="bamboo-ring bamboo-ring-r"></div>
+        </div>
+
+        <div
+          class="carousel"
+          id="carousel"
+          role="region"
+          aria-roledescription="carousel"
+          aria-label="Game previews, auto-scrolling"
+          aria-live="off"
+        >
+          <div class="carousel-track" id="carousel-track">
+            <!-- cards injected by app.js -->
+          </div>
+        </div>
+
+        <div class="rail-controls rail-controls--dots-only" aria-hidden="true">
+          <div class="rail-dots" id="rail-dots" role="presentation"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURE STRIP -->
+    <section class="features" aria-label="What you get">
+      <article class="feature-card">
+        <img class="feature-sprite" src="assets/sprites/tiki-statue.svg" alt="" width="48" height="48" />
+        <h3>One shared world</h3>
+        <p>All six games live in the same tiki lounge. Play any of them — the room keeps growing with you.</p>
+      </article>
+      <article class="feature-card">
+        <img class="feature-sprite" src="assets/sprites/suspicious-cat.svg" alt="" width="48" height="48" />
+        <h3>Truly offline</h3>
+        <p>No account required. No forced daily login. Open it on a plane and everything still works.</p>
+      </article>
+      <article class="feature-card">
+        <img class="feature-sprite" src="assets/sprites/flaming-mug.svg" alt="" width="48" height="48" />
+        <h3>Five hearts</h3>
+        <p>One life pool for every game. Lose a round, lose a heart. One heart comes back every 30 minutes.</p>
+      </article>
+      <article class="feature-card">
+        <img class="feature-sprite feature-sprite--vic" src="assets/sprites/bartender-vic.svg" alt="" width="48" height="48" />
+        <h3>Daily challenges</h3>
+        <p>Nine small goals each day. Finish any four and Vic — your bartender — gives you a free reward.</p>
+      </article>
+    </section>
+
+    <!-- Screenshots -->
+    <section class="shots-section" aria-label="App screenshots">
+      <div class="shots-track">
+        <figure class="shot">
+          <img src="assets/shots-web/03-stacks.jpg" alt="Totem block puzzle on the lagoon deck" loading="lazy" width="390" height="844" />
+        </figure>
+        <figure class="shot">
+          <img src="assets/shots-web/04-luau.jpg" alt="Luau match-3 board mid-party" loading="lazy" width="390" height="844" />
+        </figure>
+        <figure class="shot">
+          <img src="assets/shots-web/05-zombie.jpg" alt="Top Shelf merge board with cocktails" loading="lazy" width="390" height="844" />
+        </figure>
+        <figure class="shot">
+          <img src="assets/shots-web/06-cipher.jpg" alt="Cabana Cipher letter puzzle on the beach" loading="lazy" width="390" height="844" />
+        </figure>
+        <figure class="shot">
+          <img src="assets/shots-web/07-blueprints.jpg" alt="Blueprints picture grid under the moon" loading="lazy" width="390" height="844" />
+        </figure>
+        <figure class="shot">
+          <img src="assets/shots-web/08-navigator.jpg" alt="Navigator star memory game with victory panel" loading="lazy" width="390" height="844" />
+        </figure>
+        <figure class="shot">
+          <img src="assets/shots-web/02-lounge.jpg" alt="The Lounge bar room fully decorated" loading="lazy" width="390" height="844" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- LOUNGE -->
+    <section class="lounge-section" id="lounge" aria-labelledby="lounge-title">
+      <div class="lounge-media">
+        <div class="lounge-frame">
+          <video
+            class="lounge-video"
+            id="lounge-video"
+            poster="assets/previews/poster-lounge.png"
+            muted
+            loop
+            playsinline
+            preload="metadata"
+          >
+            <source src="assets/previews/preview-lounge.mp4" type="video/mp4" />
+          </video>
+          <div class="lounge-frame-mat" aria-hidden="true"></div>
+        </div>
+        <img src="assets/sprites/bartender-vic.svg" alt="" class="vic-float" />
+      </div>
+      <div class="lounge-copy">
+        <p class="eyebrow">Your room</p>
+        <h2 id="lounge-title">Win puzzles. Decorate the bar.</h2>
+        <p>
+          Winning a game earns points. Spend them in the shop on decor —
+          the aquarium, the marlin, Vic’s back bar — then place pieces around the lounge
+          and watch the night settle in.
+        </p>
+        <ul class="check-list">
+          <li>Buy furniture and set pieces with points</li>
+          <li>Vic is your bartender — he hands out daily rewards</li>
+          <li>The further you go, the more each game’s world changes</li>
+        </ul>
+        <a class="btn btn-cta" href="#download" data-app-store>
+          <svg class="apple-mark" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <path fill="currentColor" d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+          </svg>
+          <span class="btn-cta-stack">
+            <span class="btn-cta-kicker">Download on the</span>
+            <span class="btn-cta-main">App Store</span>
+          </span>
+        </a>
+      </div>
+    </section>
+
+    <!-- DAILY / NIGHTLY NINE -->
+    <section class="nightly-section" id="daily" aria-labelledby="nightly-title">
+      <div class="nightly-inner">
+        <div class="nightly-copy">
+          <p class="eyebrow">Every day</p>
+          <h2 id="nightly-title">Nine small daily goals.</h2>
+          <p>
+            Each day you get a fresh list of nine easy challenges across the games.
+            Finish any four and Vic gives you a free reward — points, a shop item, or a little bonus.
+          </p>
+        </div>
+        <div class="nightly-grid" aria-hidden="true">
+          <span>Clear a line</span>
+          <span>Win a night</span>
+          <span>Merge to 128</span>
+          <span>Crack a phrase</span>
+          <span>Finish a sketch</span>
+          <span>Chart a passage</span>
+          <span>Win any game</span>
+          <span>Beat your best</span>
+          <span>Hit a combo</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- GAMES GRID -->
+    <section class="games-grid-section" aria-labelledby="roster-title">
+      <div class="section-head">
+        <p class="eyebrow">What’s inside</p>
+        <h2 id="roster-title">Six games. No filler minigames.</h2>
+      </div>
+      <div class="games-grid" id="games-grid">
+        <!-- filled by JS for consistency -->
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="final-cta" id="download" aria-labelledby="download-title">
+      <div class="final-cta-card">
+        <img src="assets/brand/app-icon.png" alt="Tiki Lounge app icon" class="final-icon" width="96" height="96" />
+        <h2 id="download-title">Ready when you are.</h2>
+        <p>Tiki Lounge is free on the App Store — six offline puzzles and one lounge that remembers you. No paywall. No ads blocking the door.</p>
+        <a class="btn btn-cta btn-cta-lg" href="https://apps.apple.com/search?term=Tiki%20Lounge%20Offline%20Games" data-app-store id="app-store-primary">
+          <svg class="apple-mark" viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
+            <path fill="currentColor" d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+          </svg>
+          <span class="btn-cta-stack">
+            <span class="btn-cta-kicker">Download on the</span>
+            <span class="btn-cta-main">App Store</span>
+          </span>
+        </a>
+        <p class="fine-print">iPhone · iPad · Offline · Free to play</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <img src="assets/brand/app-icon.png" alt="" width="28" height="28" />
+      <span>Tiki Lounge</span>
+    </div>
+    <p>© <span id="year"></span> Tiki Lounge. Six puzzles, one lounge.</p>
+  </footer>
+
+  <script src="scene.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
