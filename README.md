@@ -86,12 +86,6 @@ Everything on screen is original flat-vector illustration. Mid-century, hard geo
 
 The site uses the same hanging signs as the home screen, and a web port of Totem's lagoon behind the rail.
 
-## The story
-
-I wanted an offline puzzle app that felt like a place, not a folder of clones. The "Offline Games" listings on the store are thirty generic boards. This is six games and a bartender.
-
-I built the iOS app, the lounge, and the site.
-
 ## What's in here
 
 ```
