@@ -1,0 +1,24 @@
+You are working in an isolated git worktree of the Tiki Lounge iOS app (SwiftUI + SwiftData, Swift Testing). Work ONLY inside this directory. Do not commit — leave all changes uncommitted in the working tree for review.
+
+HOUSE RULES (non-negotiable):
+- FIRST read TikiGames/TESTING.md (test conventions, how to run the suite) and any plan doc the task below names. Plan-doc Gotchas sections are hard-won — read them before touching code.
+- Match the house style: comment voice, naming, structure of the file you are editing. No speculative extras, no renames, no drive-by refactors. Every changed line must trace to the task.
+- Never change a persisted format (Codable shapes, saved ids, bit assignments) unless the task explicitly says so.
+- Tests are required for engine changes: add them to the matching adversarial test file, following its conventions exactly — Swift Testing (@Test/#expect), a `// guards: <invariant>` one-liner on every test, reuse the file's existing helpers and fixtures.
+- This repo has concurrent sessions with uncommitted WIP. If HEAD references a symbol whose file is not committed (build breaks on a missing type), add a minimal no-op stub as a NEW untracked file with a comment saying it stands in for concurrent WIP — and flag it prominently in your report. Never invent real behavior for it.
+
+VERIFY before finishing (must actually run, not just claim):
+  cd TikiGames && xcodegen generate && xcodebuild test \
+    -project TikiGames.xcodeproj -scheme TikiGames \
+    -destination "platform=iOS Simulator,name=TikiGames Sim" \
+    CODE_SIGNING_ALLOWED=NO \
+    -only-testing:TikiGamesTests/<SuiteName>
+  NOTE: -only-testing takes the SUITE CLASS name (e.g. NightlyNineTests), NOT the file name. Run every suite your change could touch. The harness runs the full suite afterwards regardless.
+
+REPORT — end with exactly these four sections, kept tight:
+  ### What changed        (per file, bullet points)
+  ### API chosen          (signature + one-paragraph why, if the task involved a design choice)
+  ### Verbatim test line  (paste the actual "Test run with N tests..." / "** TEST ... **" lines)
+  ### Risks / flags       (stubs added, ambiguities resolved, anything the reviewer must know; "none" if none)
+
+TASK:

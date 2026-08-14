@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 110">
+  <ellipse cx="120" cy="104.5" rx="117" ry="4" fill="#4A2E1A"></ellipse>
+  <rect x="14" y="34" width="212" height="28" rx="10" fill="#1A5A6B"></rect>
+  <rect x="22" y="38" width="62" height="18" rx="8" fill="#2A6B7C"></rect>
+  <rect x="89" y="38" width="62" height="18" rx="8" fill="#2A6B7C"></rect>
+  <rect x="156" y="38" width="62" height="18" rx="8" fill="#2A6B7C"></rect>
+  <rect x="14" y="60" width="212" height="26" rx="10" fill="#1A5A6B"></rect>
+  <rect x="22" y="58" width="62" height="16" rx="8" fill="#2A6B7C"></rect>
+  <rect x="89" y="58" width="62" height="16" rx="8" fill="#2A6B7C"></rect>
+  <rect x="156" y="58" width="62" height="16" rx="8" fill="#2A6B7C"></rect>
+  <rect x="20" y="74" width="200" height="8" rx="4" fill="#1A4A56"></rect>
+  <rect x="4" y="40" width="24" height="46" rx="11" fill="#1A5A6B"></rect>
+  <rect x="4" y="40" width="24" height="12" rx="6" fill="#2A6B7C"></rect>
+  <rect x="212" y="40" width="24" height="46" rx="11" fill="#1A5A6B"></rect>
+  <rect x="212" y="40" width="24" height="12" rx="6" fill="#2A6B7C"></rect>
+  <rect x="30" y="40" width="24" height="24" rx="7" transform="rotate(-8 42 52)" fill="#E86B4A"></rect>
+  <rect x="184" y="40" width="24" height="24" rx="7" transform="rotate(7 196 52)" fill="#E86B4A"></rect>
+  <polygon points="34,86 42,86 32,102 26,102" fill="#8C6239"></polygon>
+  <polygon points="86,86 94,86 90,102 84,102" fill="#8C6239"></polygon>
+  <polygon points="146,86 154,86 150,102 144,102" fill="#7A5530"></polygon>
+  <polygon points="198,86 206,86 214,102 208,102" fill="#7A5530"></polygon>
+</svg>

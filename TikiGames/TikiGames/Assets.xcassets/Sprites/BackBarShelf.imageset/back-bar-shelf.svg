@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216 116">
+<g transform="translate(-452,-50)">
+<rect x="452" y="96" width="216" height="8" fill="#3B2818"/>
+<rect x="452" y="158" width="216" height="8" fill="#3B2818"/>
+<rect x="466" y="50" width="4" height="10" fill="#1A5A6B"/>
+<rect x="462" y="60" width="12" height="36" fill="#1A5A6B"/>
+<rect x="485" y="58" width="4" height="8" fill="#C55A3C"/>
+<rect x="482" y="66" width="10" height="30" fill="#C55A3C"/>
+<polygon points="500,96 500,70 505,60 510,70 510,96" fill="#E8B450"/>
+<rect x="524" y="50" width="4" height="8" fill="#F2E4C1"/>
+<rect x="520" y="58" width="12" height="38" fill="#F2E4C1"/>
+<rect x="540" y="68" width="10" height="28" fill="#2A6B7C"/>
+<polygon points="558,96 558,64 563,54 568,64 568,96" fill="#8B3A2E"/>
+<rect x="581" y="54" width="4" height="8" fill="#1A5A6B"/>
+<rect x="578" y="62" width="12" height="34" fill="#1A5A6B"/>
+<rect x="598" y="70" width="10" height="26" fill="#E8B450"/>
+<rect x="619" y="50" width="4" height="8" fill="#C55A3C"/>
+<rect x="616" y="58" width="12" height="38" fill="#C55A3C"/>
+<rect x="636" y="66" width="10" height="30" fill="#F2E4C1"/>
+<polygon points="468,136 486,136 483,158 471,158" fill="#8C6239"/>
+<circle cx="473" cy="143" r="1.5" fill="#F2E4C1"/>
+<circle cx="481" cy="143" r="1.5" fill="#F2E4C1"/>
+<line x1="472" y1="151" x2="482" y2="151" stroke="#F2E4C1" stroke-width="1.5"/>
+<polygon points="508,136 526,136 523,158 511,158" fill="#6B4A2E"/>
+<circle cx="513" cy="143" r="1.5" fill="#F2E4C1"/>
+<circle cx="521" cy="143" r="1.5" fill="#F2E4C1"/>
+<line x1="512" y1="151" x2="522" y2="151" stroke="#F2E4C1" stroke-width="1.5"/>
+<polygon points="588,136 606,136 603,158 591,158" fill="#E8B450"/>
+<circle cx="593" cy="143" r="1.5" fill="#6B4A2E"/>
+<circle cx="601" cy="143" r="1.5" fill="#6B4A2E"/>
+<line x1="592" y1="151" x2="602" y2="151" stroke="#6B4A2E" stroke-width="1.5"/>
+<polygon points="628,136 646,136 643,158 631,158" fill="#8C6239"/>
+<circle cx="633" cy="143" r="1.5" fill="#F2E4C1"/>
+<circle cx="641" cy="143" r="1.5" fill="#F2E4C1"/>
+<line x1="632" y1="151" x2="642" y2="151" stroke="#F2E4C1" stroke-width="1.5"/>
+</g>
+</svg>

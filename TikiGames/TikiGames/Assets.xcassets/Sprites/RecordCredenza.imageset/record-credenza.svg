@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 188 114">
+<g transform="translate(-236,-242)">
+<rect x="240" y="286" width="180" height="46" rx="2" fill="#3B2818"/>
+<line x1="300" y1="290" x2="300" y2="328" stroke="#1B1613" stroke-width="1"/>
+<line x1="360" y1="290" x2="360" y2="328" stroke="#1B1613" stroke-width="1"/>
+<circle cx="292" cy="308" r="2" fill="#E8B450"/>
+<circle cx="352" cy="308" r="2" fill="#E8B450"/>
+<polygon points="252,332 260,332 257,352 253,352" fill="#1B1613"/>
+<polygon points="400,332 408,332 407,352 403,352" fill="#1B1613"/>
+<rect x="252" y="272" width="52" height="14" rx="2" fill="#1B1613"/>
+<circle cx="272" cy="270" r="11" fill="#2A6B7C"/>
+<circle cx="272" cy="270" r="2" fill="#F2E4C1"/>
+<line x1="286" y1="260" x2="292" y2="270" stroke="#F2E4C1" stroke-width="1.5"/>
+<rect x="310" y="250" width="26" height="36" fill="#F2E4C1"/>
+<circle cx="323" cy="268" r="8" fill="#E86B4A"/>
+<polygon points="340,258 356,258 354,286 342,286" fill="#E8B450"/>
+<circle cx="345" cy="266" r="1.5" fill="#6B4A2E"/>
+<circle cx="351" cy="266" r="1.5" fill="#6B4A2E"/>
+<line x1="344" y1="274" x2="352" y2="274" stroke="#6B4A2E" stroke-width="1.5"/>
+<line x1="352" y1="258" x2="358" y2="246" stroke="#E86B4A" stroke-width="2"/>
+</g>
+</svg>

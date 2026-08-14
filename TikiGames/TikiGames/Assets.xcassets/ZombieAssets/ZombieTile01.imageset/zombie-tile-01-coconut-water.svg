@@ -1,0 +1,14 @@
+<svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
+  <rect x="4" y="8" width="88" height="84" rx="14" fill="#F2E4C1"/>
+  <rect x="4" y="4" width="88" height="84" rx="14" fill="#FFF6E4"/>
+  <!-- bendy teal straw -->
+  <path d="M55 42 L55 26 Q55 21 60 20 L71 17 L73 24 L62 27 Q61 27 61 29 L61 42 Z" fill="#2A6B7C"/>
+  <!-- coconut shell bowl -->
+  <path d="M21 44 A27 27 0 0 0 75 44 Z" fill="#6B4A2E"/>
+  <!-- shell shading wedge -->
+  <path d="M75 44 A27 27 0 0 1 48 71 L48 62 A18 18 0 0 0 66 44 Z" fill="#4A2E1A"/>
+  <!-- flesh rim (cream ellipse ring) -->
+  <path d="M21 44 A27 8 0 0 0 75 44 A27 8 0 0 0 21 44 Z" fill="#F2E4C1"/>
+  <!-- coconut water surface -->
+  <path d="M27 44 A21 5 0 0 0 69 44 A21 5 0 0 0 27 44 Z" fill="#FFF6E4"/>
+</svg>

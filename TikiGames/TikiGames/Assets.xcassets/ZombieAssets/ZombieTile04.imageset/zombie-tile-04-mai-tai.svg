@@ -1,0 +1,18 @@
+<svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
+  <rect x="4" y="8" width="88" height="84" rx="14" fill="#123E49"/>
+  <rect x="4" y="4" width="88" height="84" rx="14" fill="#1A5A6B"/>
+  <!-- rocks glass -->
+  <path d="M30 32 h36 v34 a6 6 0 0 1 -6 6 h-24 a6 6 0 0 1 -6 -6 z" fill="#FFF6E4"/>
+  <!-- drink layers inset in glass -->
+  <path d="M34 46 h28 v20 a4 4 0 0 1 -4 4 h-20 a4 4 0 0 1 -4 -4 z" fill="#EE8A54"/>
+  <path d="M34 38 h28 v10 h-28 z" fill="#E8B450"/>
+  <!-- umbrella pole -->
+  <rect x="55" y="18" width="3" height="24" transform="rotate(20 56.5 30)" fill="#1B1613"/>
+  <!-- umbrella canopy tilted over rim -->
+  <g transform="rotate(20 60 22)">
+    <path d="M42 24 a18 18 0 0 1 36 0 z" fill="#E86B4A"/>
+    <path d="M46 24 a5 5 0 0 1 10 0 z" fill="#FFF6E4"/>
+    <path d="M60 24 a5 5 0 0 1 10 0 z" fill="#FFF6E4"/>
+    <rect x="58" y="4" width="4" height="6" rx="2" fill="#E86B4A"/>
+  </g>
+</svg>

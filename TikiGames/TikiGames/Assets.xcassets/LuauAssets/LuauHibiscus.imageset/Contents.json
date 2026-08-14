@@ -1,0 +1,7 @@
+{
+  "images" : [
+    { "filename" : "luau-piece-hibiscus.svg", "idiom" : "universal" }
+  ],
+  "info" : { "author" : "xcode", "version" : 1 },
+  "properties" : { "preserves-vector-representation" : true }
+}

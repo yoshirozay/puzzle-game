@@ -1,0 +1,15 @@
+{
+  "originHash" : "1e8f4c8a90319733d0fde12ccad5f549a1c5d040302ef8059cef319ad052188e",
+  "pins" : [
+    {
+      "identity" : "ga-sdk-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/GameAnalytics/GA-SDK-IOS",
+      "state" : {
+        "revision" : "041591d6f0d48bd6161e4657e6afaee71ad0037d",
+        "version" : "4.11.1"
+      }
+    }
+  ],
+  "version" : 3
+}

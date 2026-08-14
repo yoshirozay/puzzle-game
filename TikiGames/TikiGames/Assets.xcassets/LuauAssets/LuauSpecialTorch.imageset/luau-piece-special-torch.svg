@@ -1,0 +1,22 @@
+<svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
+  <!-- Plate-less glyph: LuauPieceView composites this over a code-drawn
+       plate tinted to the torch's match color (one asset, six colors —
+       the Honu-urchin pattern). The inner dark panel keeps the fiery art
+       readable on every plate color; the mask piece uses the same
+       panel-over-plate look. -->
+  <rect x="18" y="16" width="60" height="62" rx="12" fill="#1B1613" fill-opacity="0.85"/>
+  <g transform="translate(48 47) scale(0.72) translate(-48 -47)">
+    <!-- coral flame tip left -->
+    <path d="M10 46 C14 38 22 36 26 38 L30 46 L26 54 C22 56 14 54 10 46 Z" fill="#E86B4A"/>
+    <!-- coral flame tip right -->
+    <path d="M86 46 C82 38 74 36 70 38 L66 46 L70 54 C74 56 82 54 86 46 Z" fill="#E86B4A"/>
+    <!-- torch bolt beam across middle -->
+    <path d="M16 38 L58 38 L50 44 L80 44 L38 54 L46 48 L16 48 Z" fill="#E8B450"/>
+    <!-- speed ticks above -->
+    <rect x="26" y="26" width="14" height="4" rx="2" fill="#FFF6E4"/>
+    <rect x="46" y="26" width="20" height="4" rx="2" fill="#FFF6E4"/>
+    <!-- speed ticks below -->
+    <rect x="30" y="62" width="20" height="4" rx="2" fill="#FFF6E4"/>
+    <rect x="56" y="62" width="14" height="4" rx="2" fill="#FFF6E4"/>
+  </g>
+</svg>

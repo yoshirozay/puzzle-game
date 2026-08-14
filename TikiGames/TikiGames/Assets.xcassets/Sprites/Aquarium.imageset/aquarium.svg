@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 110">
+  <rect x="7" y="10" width="206" height="68" fill="#1A5A6B"></rect>
+  <rect x="7" y="10" width="206" height="6" fill="#2A6B7C"></rect>
+  <rect x="7" y="70" width="206" height="8" fill="#123E49"></rect>
+  <path d="M7 82 Q22 78.5 40 81 Q60 84 80 80.5 Q100 78 120 81.5 Q140 84.5 160 80.5 Q180 78 200 81.5 L213 82 L213 86 L7 86 Z" fill="#F2E4C1"></path>
+  <path d="M40 80 C34 62 46 48 40 30 Q38 24 42 19" fill="none" stroke="#1A4A56" stroke-width="4" stroke-linecap="round"></path>
+  <path d="M41 60 C48 54 49 45 46 38" fill="none" stroke="#1A4A56" stroke-width="4" stroke-linecap="round"></path>
+  <path d="M58 80 C63 66 53 54 58 40 Q60 34 57 29" fill="none" stroke="#1A4A56" stroke-width="4" stroke-linecap="round"></path>
+  <path d="M170 80 V61" fill="none" stroke="#E86B4A" stroke-width="4.5" stroke-linecap="round"></path>
+  <path d="M170 69 C164 63 161.5 56 163 49" fill="none" stroke="#E86B4A" stroke-width="4.5" stroke-linecap="round"></path>
+  <path d="M170 67 C176 61 179 54.5 178 48" fill="none" stroke="#E86B4A" stroke-width="4.5" stroke-linecap="round"></path>
+  <rect x="2" y="5" width="216" height="5" rx="2.5" fill="#1B1613"></rect>
+  <rect x="2" y="86" width="216" height="5" rx="2.5" fill="#1B1613"></rect>
+  <rect x="2" y="5" width="5" height="86" rx="2.5" fill="#1B1613"></rect>
+  <rect x="213" y="5" width="5" height="86" rx="2.5" fill="#1B1613"></rect>
+  <polygon points="40,91 64,91 40,108" fill="#1B1613"></polygon>
+  <polygon points="180,91 156,91 180,108" fill="#1B1613"></polygon>
+</svg>

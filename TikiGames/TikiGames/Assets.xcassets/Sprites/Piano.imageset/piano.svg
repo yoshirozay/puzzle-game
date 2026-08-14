@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 150">
+  <ellipse cx="111" cy="144" rx="107" ry="4" fill="#4A2E1A"></ellipse>
+  <polygon points="70,2 208,46 208,56 70,12" fill="#1B1613"></polygon>
+  <path d="M150 60 L166 42.5" fill="none" stroke="#E8B450" stroke-width="3.5" stroke-linecap="round"></path>
+  <path d="M4 60 L182 60 C204 60 214 70 214 92 L8 92 C5.2 92 4 89.8 4 87 Z" fill="#1B1613"></path>
+  <rect x="10" y="66.5" width="190" height="10" rx="2" fill="#FFF6E4"></rect>
+  <path d="M12.5 66.5h2.2v5.5h-2.2Z M19.9 66.5h2.2v5.5h-2.2Z M23.5 66.5h2.2v5.5h-2.2Z M30.8 66.5h2.2v5.5h-2.2Z M34.5 66.5h2.2v5.5h-2.2Z M38.1 66.5h2.2v5.5h-2.2Z M45.4 66.5h2.2v5.5h-2.2Z M49.1 66.5h2.2v5.5h-2.2Z M56.4 66.5h2.2v5.5h-2.2Z M60.1 66.5h2.2v5.5h-2.2Z M63.7 66.5h2.2v5.5h-2.2Z M71 66.5h2.2v5.5h-2.2Z M74.7 66.5h2.2v5.5h-2.2Z M82 66.5h2.2v5.5h-2.2Z M85.6 66.5h2.2v5.5h-2.2Z M89.3 66.5h2.2v5.5h-2.2Z M96.6 66.5h2.2v5.5h-2.2Z M100.2 66.5h2.2v5.5h-2.2Z M107.5 66.5h2.2v5.5h-2.2Z M111.2 66.5h2.2v5.5h-2.2Z M114.9 66.5h2.2v5.5h-2.2Z M122.2 66.5h2.2v5.5h-2.2Z M125.8 66.5h2.2v5.5h-2.2Z M133.1 66.5h2.2v5.5h-2.2Z M136.8 66.5h2.2v5.5h-2.2Z M140.4 66.5h2.2v5.5h-2.2Z M147.7 66.5h2.2v5.5h-2.2Z M151.4 66.5h2.2v5.5h-2.2Z M158.7 66.5h2.2v5.5h-2.2Z M162.4 66.5h2.2v5.5h-2.2Z M166 66.5h2.2v5.5h-2.2Z M173.3 66.5h2.2v5.5h-2.2Z M177 66.5h2.2v5.5h-2.2Z M184.3 66.5h2.2v5.5h-2.2Z M187.9 66.5h2.2v5.5h-2.2Z M191.6 66.5h2.2v5.5h-2.2Z" fill="#1B1613"></path>
+  <polygon points="13,92 24,92 24,140 16,140" fill="#1B1613"></polygon>
+  <polygon points="194,92 205,92 202,140 194,140" fill="#1B1613"></polygon>
+  <rect x="76" y="98" width="68" height="9" rx="4.5" fill="#E86B4A"></rect>
+  <rect x="76" y="106" width="68" height="5" rx="2" fill="#1B1613"></rect>
+  <polygon points="82,111 88,111 84,138 79,138" fill="#1B1613"></polygon>
+  <polygon points="132,111 138,111 141,138 136,138" fill="#1B1613"></polygon>
+</svg>

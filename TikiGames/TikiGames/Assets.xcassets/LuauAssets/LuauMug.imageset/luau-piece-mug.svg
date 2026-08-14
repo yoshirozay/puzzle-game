@@ -1,0 +1,22 @@
+<svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
+  <rect x="4" y="8" width="88" height="84" rx="16" fill="#C55A3C"/>
+  <rect x="4" y="4" width="88" height="84" rx="16" fill="#F2E4C1"/>
+  <!-- tiki mug body -->
+  <path d="M34 22 h28 a4 4 0 0 1 4 4 v42 a6 6 0 0 1 -6 6 H36 a6 6 0 0 1 -6 -6 V26 a4 4 0 0 1 4 -4 z" fill="#6B4A2E"/>
+  <!-- carved face: brows -->
+  <path d="M36 34 l9 -4 v5 l-9 4 z" fill="#1B1613"/>
+  <path d="M60 30 l-9 4 v5 l9 -4 z" fill="#1B1613"/>
+  <!-- eyes -->
+  <rect x="37" y="41" width="8" height="6" rx="2" fill="#1B1613"/>
+  <rect x="51" y="41" width="8" height="6" rx="2" fill="#1B1613"/>
+  <!-- nose -->
+  <rect x="44" y="49" width="8" height="4" rx="2" fill="#1B1613"/>
+  <!-- mouth: toothy band -->
+  <path d="M37 57 h22 v9 h-22 z" fill="#1B1613"/>
+  <path d="M41 57 h3 v9 h-3 z M48 57 h3 v9 h-3 z M55 57 h3 v9 h-3 z" fill="#6B4A2E"/>
+  <!-- base grooves -->
+  <rect x="34" y="69" width="28" height="3" fill="#1B1613"/>
+  <!-- umbrella tilted on rim -->
+  <path d="M52 24 L76 12 a14 14 0 0 1 -4 12 a14 14 0 0 1 -12 4 z" fill="#E86B4A"/>
+  <rect x="54" y="21" width="20" height="3" rx="1.5" transform="rotate(-27 54 21)" fill="#E86B4A"/>
+</svg>

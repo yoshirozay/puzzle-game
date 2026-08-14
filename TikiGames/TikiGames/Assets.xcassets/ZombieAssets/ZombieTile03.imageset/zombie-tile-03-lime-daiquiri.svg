@@ -1,0 +1,20 @@
+<svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
+  <rect x="4" y="8" width="88" height="84" rx="14" fill="#123E49"/>
+  <rect x="4" y="4" width="88" height="84" rx="14" fill="#2A6B7C"/>
+  <!-- coupe bowl (blossom outline shape) -->
+  <path d="M24 26 h48 c0 16 -10 26 -24 26 c-14 0 -24 -10 -24 -26 z" fill="#FFF6E4"/>
+  <!-- drink inside bowl -->
+  <path d="M29 31 h38 c-1.5 11 -9 16.5 -19 16.5 c-10 0 -17.5 -5.5 -19 -16.5 z" fill="#7A8B2E"/>
+  <!-- stem -->
+  <rect x="45" y="50" width="6" height="18" fill="#FFF6E4"/>
+  <!-- foot -->
+  <path d="M32 72 c0 -3 7 -5 16 -5 c9 0 16 2 16 5 c0 2 -7 3 -16 3 c-9 0 -16 -1 -16 -3 z" fill="#FFF6E4"/>
+  <!-- lime wheel on rim -->
+  <circle cx="70" cy="26" r="11" fill="#7A8B2E"/>
+  <circle cx="70" cy="26" r="8" fill="#FFF6E4"/>
+  <g fill="#7A8B2E">
+    <path d="M70 26 L64.5 20 A8 8 0 0 1 75.5 20 z"/>
+    <path d="M70 26 L77.8 24 A8 8 0 0 1 73 33.4 z"/>
+    <path d="M70 26 L67 33.4 A8 8 0 0 1 62.2 24 z"/>
+  </g>
+</svg>

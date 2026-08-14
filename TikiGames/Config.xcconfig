@@ -1,0 +1,22 @@
+// App target build settings.
+//
+// GameAnalytics credentials come from Secrets.xcconfig, which is gitignored.
+// To supply them, create TikiGames/Secrets.xcconfig with:
+//
+//     GA_GAME_KEY = <key>
+//     GA_GAME_SECRET = <secret>
+//
+// (gameanalytics.com → your game → Settings → Game keys.) The include is
+// optional, so a fresh clone builds without it — the keys stay empty and
+// Analytics no-ops rather than failing. Defaults are declared BEFORE the
+// include so the include wins; xcconfig takes the last assignment.
+GA_GAME_KEY =
+GA_GAME_SECRET =
+#include? "Secrets.xcconfig"
+
+// Surfaced through the generated Info.plist, which is how Analytics reads
+// them at runtime. They still ship in the binary — GA uses the pair to
+// route and HMAC-sign events, not as a secret — this only keeps them
+// out of version control.
+INFOPLIST_KEY_GAGameKey = $(GA_GAME_KEY)
+INFOPLIST_KEY_GAGameSecret = $(GA_GAME_SECRET)

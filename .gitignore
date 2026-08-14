@@ -1,2 +1,7 @@
 .DS_Store
 .vercel
+TikiGames/build/
+TikiGames/Secrets.xcconfig
+xcuserdata/
+*.xcuserdatad
+DerivedData/

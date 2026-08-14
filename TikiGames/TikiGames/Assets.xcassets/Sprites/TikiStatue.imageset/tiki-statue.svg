@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92 259">
+<g transform="translate(-39,-104)">
+<ellipse cx="85" cy="352" rx="42" ry="7" fill="#4A2E1A"/>
+<polygon points="56,128 114,128 120,348 50,348" fill="#3B2818"/>
+<polygon points="56,108 114,108 120,128 50,128" fill="#2B1C10"/>
+<polygon points="60,150 84,150 72,164" fill="#E8B450"/>
+<polygon points="86,150 110,150 98,164" fill="#E8B450"/>
+<rect x="62" y="172" width="20" height="14" fill="#E8B450"/>
+<rect x="68" y="176" width="8" height="7" fill="#1B1613"/>
+<rect x="88" y="172" width="20" height="14" fill="#E8B450"/>
+<rect x="94" y="176" width="8" height="7" fill="#1B1613"/>
+<polygon points="85,190 96,216 74,216" fill="#1B1613"/>
+<rect x="58" y="226" width="54" height="22" fill="#1B1613"/>
+<rect x="62" y="228" width="8" height="8" fill="#F2E4C1"/>
+<rect x="76" y="228" width="8" height="8" fill="#F2E4C1"/>
+<rect x="90" y="228" width="8" height="8" fill="#F2E4C1"/>
+<rect x="102" y="228" width="7" height="8" fill="#F2E4C1"/>
+<rect x="69" y="238" width="8" height="8" fill="#F2E4C1"/>
+<rect x="83" y="238" width="8" height="8" fill="#F2E4C1"/>
+<rect x="97" y="238" width="8" height="8" fill="#F2E4C1"/>
+<line x1="55" y1="270" x2="115" y2="270" stroke="#1B1613" stroke-width="2.5"/>
+<line x1="54" y1="292" x2="116" y2="292" stroke="#1B1613" stroke-width="2.5"/>
+<line x1="53" y1="314" x2="117" y2="314" stroke="#1B1613" stroke-width="2.5"/>
+</g>
+</svg>

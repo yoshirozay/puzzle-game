@@ -1,0 +1,43 @@
+<svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
+  <!-- tile plate -->
+  <rect x="4" y="8" width="88" height="84" rx="14" fill="#4A1B0C"/>
+  <rect x="4" y="4" width="88" height="84" rx="14" fill="#1B1613"/>
+
+  <!-- smoke curl rising from rim (solid thick S-shape) -->
+  <path fill="#F2E4C1" d="M50 24
+    C 42 24 40 18 46 15
+    C 52 12 54 8 49 5
+    C 58 6 59 13 53 16
+    C 48 18.5 48 21 53 21
+    C 57 21 59 23 58 26
+    L 50 26 Z"/>
+
+  <!-- tiki vessel body: clay -->
+  <path fill="#C55A3C" d="M34 30
+    Q 33 26 38 26 L 58 26 Q 63 26 62 30
+    L 63 74 Q 63 82 55 82 L 41 82 Q 33 82 33 74 Z"/>
+
+  <!-- rum tone: right-side shading and base band -->
+  <path fill="#8B3A2E" d="M54 26 L 58 26 Q 63 26 62 30 L 63 74 Q 63 82 55 82 L 51 82 Q 56 80 56 74 Z"/>
+  <rect x="33" y="72" width="30" height="5" fill="#8B3A2E"/>
+
+  <!-- carved rim groove -->
+  <rect x="34" y="30" width="28" height="3" fill="#4A1B0C"/>
+
+  <!-- angular carved brows -->
+  <path fill="#4A1B0C" d="M36 44 L 46 38 L 46 43 L 36 49 Z"/>
+  <path fill="#4A1B0C" d="M60 44 L 50 38 L 50 43 L 60 49 Z"/>
+
+  <!-- glowing torch eye slits -->
+  <path fill="#E8B450" d="M37 50 L 45 47 L 45 52 L 37 55 Z"/>
+  <path fill="#E8B450" d="M59 50 L 51 47 L 51 52 L 59 55 Z"/>
+
+  <!-- carved nose -->
+  <path fill="#4A1B0C" d="M45 55 L 51 55 L 48 61 Z"/>
+
+  <!-- angular mouth with teeth -->
+  <path fill="#4A1B0C" d="M37 62 L 59 62 L 56 70 L 40 70 Z"/>
+  <path fill="#C55A3C" d="M42 62 L 45 62 L 45 66 L 42 66 Z"/>
+  <path fill="#C55A3C" d="M51 62 L 54 62 L 54 66 L 51 66 Z"/>
+  <path fill="#C55A3C" d="M46.5 66 L 49.5 66 L 49.5 70 L 46.5 70 Z"/>
+</svg>

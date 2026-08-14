@@ -80,15 +80,22 @@ I built the iOS app, the lounge, and the site.
 
 ## What's in here
 
-The landing page. Open `index.html` or run:
+```
+TikiGames/   the iPhone app (team ID, bundle ID, and Game Center board IDs stripped)
+index.html   the landing page (also at https://tiki-lounge.vercel.app/)
+```
+
+Open the site with:
 
 ```bash
 python3 -m http.server 8765
 ```
 
-Then go to [http://localhost:8765](http://localhost:8765). Same files as [tiki-lounge.vercel.app](https://tiki-lounge.vercel.app/).
+Then go to [http://localhost:8765](http://localhost:8765).
 
-The iOS app, the Android port, the source SVGs, and the App Store kit are not in this repo.
+The iOS project opens in Xcode. Set your own team, bundle ID, and App Store Connect leaderboard IDs before you run it on a device. GameAnalytics keys go in a local `TikiGames/Secrets.xcconfig` that is not in this repo.
+
+The Android port and the App Store submission kit are not here.
 
 ## Status
 

@@ -1,0 +1,16 @@
+<svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
+  <rect x="4" y="8" width="88" height="84" rx="16" fill="#4A1B0C"/>
+  <rect x="4" y="4" width="88" height="84" rx="16" fill="#1B1613"/>
+  <!-- blossom glow outline: cat silhouette enlarged -->
+  <path d="M31 15 L41 27 Q48 24 55 27 L65 15 L69 34 Q74 42 73 52 Q78 58 78 66 Q78 78 66 79 L30 79 Q18 78 18 66 Q18 58 23 52 Q22 42 27 34 Z" fill="#FFF6E4"/>
+  <!-- cat body in woodDark -->
+  <path d="M34 20 L42 30 Q48 27.5 54 30 L62 20 L65 35 Q70 42 69 52 Q74 57.5 74 65 Q74 75 64 75.5 L32 75.5 Q22 75 22 65 Q22 57.5 27 52 Q26 42 31 35 Z" fill="#3B2818"/>
+  <!-- torch eyes -->
+  <circle cx="39" cy="45" r="6" fill="#E8B450"/>
+  <circle cx="57" cy="45" r="6" fill="#E8B450"/>
+  <circle cx="39" cy="45" r="2.5" fill="#1B1613"/>
+  <circle cx="57" cy="45" r="2.5" fill="#1B1613"/>
+  <!-- coral collar -->
+  <path d="M30 62 Q48 70 66 62 L66 68 Q48 76 30 68 Z" fill="#E86B4A"/>
+  <circle cx="48" cy="71" r="4" fill="#E8B450"/>
+</svg>
