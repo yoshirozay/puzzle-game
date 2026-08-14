@@ -12,7 +12,7 @@ A free offline puzzle bundle for iPhone. You play, you earn points, you decorate
 
 ## The games
 
-The home screen is a hanging-sign rail. Swipe. Lounge and leaderboards sit to the left of Luau. Cold start lands on Luau.
+The home screen is a hanging-sign rail. Swipe. Lounge and the boards sit to the left of Luau. Cold start lands on Luau.
 
 **Luau** is match-3. Swap pieces to match three or more. Specials clear big chunks of the board. This is the deep one: a 200-level campaign. The first card a new player meets.
 
@@ -58,11 +58,15 @@ The lounge is the room you come home to. Winning any game pays points into one w
   <img src="assets/shots-web/02-lounge.jpg" width="260" alt="The lounge">
 </p>
 
-Vic is the bartender. He is always there. He runs the shop and the Nightly Nine.
+Vic is the bartender. He is always there. He runs the shop and the daily rewards.
 
 The shop is the room, priced. A flaming mug in his hand. Fronds in the corners. The back bar. A sunset that never quite sets. A suspicious cat. Each row has Vic's line under it ("THE HOUSE POUR, ON FIRE"). Buy something and it pops into place with a spring.
 
-**The Nightly Nine.** Nine small goals each day, spread across the games. Finish any four and Vic pours a reward: fifty points, or a shop item you do not own yet.
+## Daily rewards
+
+Vic runs the Nightly Nine. Nine small goals each day, spread across the games. Play Luau, stack a Totem, decode a phrase. Finish any four and he pours a reward: fifty points, or a shop piece you do not own yet.
+
+Tap Vic in the lounge to see the board. It resets every day. You do not have to finish all nine.
 
 ## Lives
 
@@ -74,7 +78,7 @@ There is no buy-back. Ads and gold bars on that sheet are "coming soon" on purpo
 
 ## Leaderboards
 
-One board per game, on its own hanging sign. Game Center underneath, a themed screen on top. Each game has its own wardrobe: Totem's carved heads on the night lagoon, Top Shelf's bottles on the back bar, Luau's match-3 world, and so on.
+One hanging sign to the left of Luau, labeled board. That is the front door. One board per game, Game Center underneath, a themed screen on top. Totem's carved heads on the night lagoon. Top Shelf's bottles on the back bar. Luau's match-3 world. Each game has its own wardrobe.
 
 The skeleton is the same on every board. Header, podium for the top three, plank slats for the rest, a pinned YOU bar at the bottom. Tap a row and that player's card opens. Scores queue offline and submit when you are back on the network.
 
