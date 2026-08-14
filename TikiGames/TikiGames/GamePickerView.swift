@@ -326,7 +326,7 @@ struct GamePickerView: View {
         .opacity(initialFocus == PickerSlot.all[0] || railRevealed ? 1 : 0)
         .onPreferenceChange(RailMinXKey.self) { minX in
             guard let minX else { return }
-            progress = min(CGFloat(TikiGame.allCases.count), max(0, (m.margin - minX) / (m.cardW + m.spacing)))
+            progress = min(CGFloat(PickerSlot.all.count - 1), max(0, (m.margin - minX) / (m.cardW + m.spacing)))
         }
     }
 

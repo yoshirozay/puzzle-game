@@ -27,14 +27,22 @@ struct GamePickerTopBar: View {
     }
 
     private var counter: some View {
-        // Position 0 is the leaderboard banner (THE BOARDS); 1..N are the
-        // games (Nº k OF N).
-        let count = TikiGame.allCases.count
-        // "· BOARDS ·" over anything longer: the counter is right-aligned
-        // against the centered PICK A GAME title and a wide label collides
-        // with it (measured: "· THE BOARDS ·" overlapped the E).
-        let raw = min(count, max(0, Int(progress.rounded())))
-        let label = raw == 0 ? "· BOARDS ·" : "Nº \(raw) OF \(count)"
+        // Rail is lounge, boards, then the games. Lounge and boards get
+        // a word; games keep Nº k OF N. Short labels — the counter sits
+        // against the centered PICK A GAME title.
+        let slots = PickerSlot.all
+        let idx = min(slots.count - 1, max(0, Int(progress.rounded())))
+        let games = TikiGame.pickerOrder
+        let label: String
+        switch slots[idx] {
+        case .lounge:
+            label = "· LOUNGE ·"
+        case .leaderboards:
+            label = "· BOARD ·"
+        case .game(let g):
+            let k = (games.firstIndex(of: g) ?? 0) + 1
+            label = "Nº \(k) OF \(games.count)"
+        }
         return Text(label)
             .font(.custom("Futura-Bold", size: 13, relativeTo: .body))
             .tracking(2)

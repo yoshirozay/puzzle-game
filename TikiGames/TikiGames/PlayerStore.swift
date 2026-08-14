@@ -636,14 +636,10 @@ final class PlayerStore {
     /// Bundle-global pool cap. Fresh installs start full; refill never
     /// overshoots this.
     ///
-    /// v2: 3, down from 5, on an hour instead of half an hour. Deliberately
-    /// harsher — across the three shipping games a run takes materially
-    /// longer to lose than it did in the six-game bundle, so five lives on a
-    /// 30-minute drip was never a real ceiling. The `livesActive` gate is
-    /// what keeps this off new players.
-    static let livesCap = 3
+    /// Six-game bundle: 5 hearts, one back every 30 minutes.
+    static let livesCap = 5
     /// Wall-clock seconds per granted life while below cap.
-    static let livesRefillPeriod: TimeInterval = 60 * 60
+    static let livesRefillPeriod: TimeInterval = 30 * 60
 
     /// Mirrored for cheap observation by UI (kept in sync like `points`).
     /// Always the post-refill count — `materializeLives` rolls pending
