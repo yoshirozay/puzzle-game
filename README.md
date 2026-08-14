@@ -2,9 +2,9 @@
 
 Six puzzles. One lounge.
 
-A free offline puzzle bundle for iPhone and iPad. You play, you earn points, you decorate Vic's bar. The room grows with you. No account. No forced daily login. Open it on a plane.
+A free offline puzzle bundle for iPhone. You play, you earn points, you decorate Vic's bar. The room grows with you. No account. No forced daily login. Open it on a plane.
 
-[Play the site](https://tiki-lounge.vercel.app/) · [App Store](https://apps.apple.com/search?term=Tiki%20Lounge%20Offline%20Games) · iPhone · iPad · Offline · Free
+[Website](https://tiki-lounge.vercel.app/) · iPhone · Offline · Free
 
 <p align="center">
   <img src="assets/brand/app-icon.png" width="120" alt="Tiki Lounge icon">
