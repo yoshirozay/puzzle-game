@@ -4,24 +4,10 @@ Six puzzles. One lounge.
 
 A free offline puzzle bundle for iPhone and iPad. You play, you earn points, you decorate Vic's bar. The room grows with you. No account. No forced daily login. Open it on a plane.
 
-This repo is the public snapshot: the [landing page](https://tiki-lounge.vercel.app/) and the story. The iOS app source is not here.
-
 [Play the site](https://tiki-lounge.vercel.app/) · [App Store](https://apps.apple.com/search?term=Tiki%20Lounge%20Offline%20Games) · iPhone · iPad · Offline · Free
 
 <p align="center">
   <img src="assets/brand/app-icon.png" width="120" alt="Tiki Lounge icon">
-</p>
-
-<p align="center">
-  <img src="assets/shots-web/02-lounge.jpg" width="160" alt="The lounge">
-  <img src="assets/shots-web/04-luau.jpg" width="160" alt="Luau">
-  <img src="assets/shots-web/03-stacks.jpg" width="160" alt="Totem">
-  <img src="assets/shots-web/05-zombie.jpg" width="160" alt="Top Shelf">
-</p>
-<p align="center">
-  <img src="assets/shots-web/06-cipher.jpg" width="160" alt="Cabana Cipher">
-  <img src="assets/shots-web/07-blueprints.jpg" width="160" alt="Blueprints">
-  <img src="assets/shots-web/08-navigator.jpg" width="160" alt="Navigator">
 </p>
 
 ## The games
@@ -30,19 +16,47 @@ The home screen is a hanging-sign rail. Swipe. Lounge and leaderboards sit to th
 
 **Luau** is match-3. Swap pieces to match three or more. Specials clear big chunks of the board. This is the deep one: a 200-level campaign. The first card a new player meets.
 
+<p align="center">
+  <img src="assets/shots-web/04-luau.jpg" width="260" alt="Luau">
+</p>
+
 **Totem** is a block puzzle. Drop blocks. Clear full lines. The lagoon behind the board deepens the further you go.
+
+<p align="center">
+  <img src="assets/shots-web/03-stacks.jpg" width="260" alt="Totem">
+</p>
 
 **Top Shelf** is merge, 2048-style. Swipe matching cocktails together and climb the shelf.
 
+<p align="center">
+  <img src="assets/shots-web/05-zombie.jpg" width="260" alt="Top Shelf">
+</p>
+
 **Cabana Cipher** is a letter puzzle. Decode a phrase one letter at a time. Vic will hint if you get stuck.
+
+<p align="center">
+  <img src="assets/shots-web/06-cipher.jpg" width="260" alt="Cabana Cipher">
+</p>
 
 **Blueprints** is a picture grid. The numbers tell you which cells to shade. Fill it right and the picture shows up.
 
+<p align="center">
+  <img src="assets/shots-web/07-blueprints.jpg" width="260" alt="Blueprints">
+</p>
+
 **Navigator** is memory. Watch the star pattern, then tap it back. Win and the constellation draws itself.
+
+<p align="center">
+  <img src="assets/shots-web/08-navigator.jpg" width="260" alt="Navigator">
+</p>
 
 ## The lounge
 
 The lounge is the room you come home to. Winning any game pays points into one wallet. Spend them in Vic's shop and the pieces drop into the room. Drag them around. The night settles in as you go.
+
+<p align="center">
+  <img src="assets/shots-web/02-lounge.jpg" width="260" alt="The lounge">
+</p>
 
 Vic is the bartender. He is always there. He runs the shop and the Nightly Nine.
 
@@ -81,21 +95,9 @@ I built the iOS app, the lounge, and the site.
 ## What's in here
 
 ```
-TikiGames/   the iPhone app (team ID, bundle ID, and Game Center board IDs stripped)
-index.html   the landing page (also at https://tiki-lounge.vercel.app/)
+TikiGames/   the iPhone app
+index.html   the landing page (https://tiki-lounge.vercel.app/)
 ```
-
-Open the site with:
-
-```bash
-python3 -m http.server 8765
-```
-
-Then go to [http://localhost:8765](http://localhost:8765).
-
-The iOS project opens in Xcode. Set your own team, bundle ID, and App Store Connect leaderboard IDs before you run it on a device. GameAnalytics keys go in a local `TikiGames/Secrets.xcconfig` that is not in this repo.
-
-The Android port and the App Store submission kit are not here.
 
 ## Status
 
