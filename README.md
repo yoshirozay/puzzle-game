@@ -7,7 +7,7 @@ A free offline puzzle bundle for iPhone. You play, you earn points, you decorate
 [Website](https://tiki-lounge.vercel.app/) · iPhone · Offline · Free
 
 <p align="center">
-  <img src="assets/brand/app-icon.png" width="120" alt="Tiki Lounge icon">
+  <img src="assets/brand/app-icon-rounded.png" width="120" alt="Tiki Lounge icon">
 </p>
 
 ## The games
