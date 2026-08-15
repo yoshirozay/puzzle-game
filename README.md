@@ -76,6 +76,10 @@ Tap Vic in the lounge to see the board. It resets every day. You do not have to 
 
 Five hearts. One pool for every game. Lose a round, lose a heart. One heart comes back every 30 minutes, on the wall clock, even if the app is closed.
 
+<p align="center">
+  <img src="assets/shots-web/11-lives.jpg" width="260" alt="Out of lives">
+</p>
+
 When you are empty, the out-of-lives sheet sits on the board with a live countdown. A life landing while it is open flips the sheet so you can play immediately. The tutorial does not spend a heart.
 
 There is no buy-back. Ads and gold bars on that sheet are "coming soon" on purpose. You wait, or you come back later.
