@@ -15,43 +15,43 @@ A free offline puzzle bundle for iPhone. You play, you earn points, you decorate
 The home screen is a hanging-sign rail. Swipe. Lounge and the boards sit to the left of Luau. Everyone starts here and picks a game.
 
 <p align="center">
-  <img src="assets/shots-web/01-home.jpg" width="260" alt="Home screen, Luau, game 1 of 6">
+  <img src="assets/shots-web/01-home.png" width="260" alt="Home screen, Luau, game 1 of 6">
 </p>
 
 **Luau** is match-3. Swap pieces to match three or more. Specials clear big chunks of the board. This is the deep one: a 200-level campaign.
 
 <p align="center">
-  <img src="assets/shots-web/04-luau.jpg" width="260" alt="Luau">
+  <img src="assets/shots-web/04-luau.png" width="260" alt="Luau">
 </p>
 
 **Totem** is a block puzzle. Drop blocks. Clear full lines. The lagoon behind the board deepens the further you go.
 
 <p align="center">
-  <img src="assets/shots-web/03-stacks.jpg" width="260" alt="Totem">
+  <img src="assets/shots-web/03-stacks.png" width="260" alt="Totem">
 </p>
 
 **Top Shelf** is merge, 2048-style. Swipe matching cocktails together and climb the shelf.
 
 <p align="center">
-  <img src="assets/shots-web/05-zombie.jpg" width="260" alt="Top Shelf">
+  <img src="assets/shots-web/05-zombie.png" width="260" alt="Top Shelf">
 </p>
 
 **Cabana Cipher** is a letter puzzle. Decode a phrase one letter at a time. Vic will hint if you get stuck.
 
 <p align="center">
-  <img src="assets/shots-web/06-cipher.jpg" width="260" alt="Cabana Cipher">
+  <img src="assets/shots-web/06-cipher.png" width="260" alt="Cabana Cipher">
 </p>
 
 **Blueprints** is a picture grid. The numbers tell you which cells to shade. Fill it right and the picture shows up.
 
 <p align="center">
-  <img src="assets/shots-web/07-blueprints.jpg" width="260" alt="Blueprints">
+  <img src="assets/shots-web/07-blueprints.png" width="260" alt="Blueprints">
 </p>
 
 **Navigator** is memory. Watch the star pattern, then tap it back. Win and the constellation draws itself.
 
 <p align="center">
-  <img src="assets/shots-web/08-navigator.jpg" width="260" alt="Navigator">
+  <img src="assets/shots-web/08-navigator.png" width="260" alt="Navigator">
 </p>
 
 ## The lounge
@@ -59,7 +59,7 @@ The home screen is a hanging-sign rail. Swipe. Lounge and the boards sit to the 
 The lounge is the room you come home to. Winning any game pays points into one wallet. Spend them in Vic's shop and the pieces drop into the room. Drag them around. The night settles in as you go.
 
 <p align="center">
-  <img src="assets/shots-web/02-lounge.jpg" width="260" alt="The lounge">
+  <img src="assets/shots-web/02-lounge.png" width="260" alt="The lounge">
 </p>
 
 Vic is the bartender. He is always there. He runs the shop and the daily rewards.
@@ -73,7 +73,7 @@ Vic runs the Nightly Nine. Nine small goals each day, spread across the games. P
 Tap Vic in the lounge to see the board. It resets every day. You do not have to finish all nine.
 
 <p align="center">
-  <img src="assets/shots-web/09-nightly.jpg" width="260" alt="The Nightly Nine">
+  <img src="assets/shots-web/09-nightly.png" width="260" alt="The Nightly Nine">
 </p>
 
 ## Lives
@@ -81,7 +81,7 @@ Tap Vic in the lounge to see the board. It resets every day. You do not have to 
 Five hearts. One pool for every game. Lose a round, lose a heart. One heart comes back every 30 minutes, on the wall clock, even if the app is closed.
 
 <p align="center">
-  <img src="assets/shots-web/11-lives.jpg" width="260" alt="Out of lives">
+  <img src="assets/shots-web/11-lives.png" width="260" alt="Out of lives">
 </p>
 
 When you are empty, the out-of-lives sheet sits on the board with a live countdown. A life landing while it is open flips the sheet so you can play immediately. The tutorial does not spend a heart.
@@ -97,7 +97,7 @@ The skeleton is the same on every board. Header, podium for the top three, plank
 You can play the whole app without signing in. The boards just wait.
 
 <p align="center">
-  <img src="assets/shots-web/10-boards.jpg" width="260" alt="Leaderboards">
+  <img src="assets/shots-web/10-boards.png" width="260" alt="Leaderboards">
 </p>
 
 ## Custom assets
