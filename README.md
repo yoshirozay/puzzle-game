@@ -10,6 +10,10 @@ A free offline puzzle bundle for iPhone. You play, you earn points, you decorate
   <img src="assets/brand/app-icon.png" width="120" alt="Tiki Lounge icon">
 </p>
 
+<p align="center">
+  <img src="assets/shots-web/01-home.jpg" width="260" alt="Home screen, Luau, game 1 of 6">
+</p>
+
 ## The games
 
 The home screen is a hanging-sign rail. Swipe. Lounge and the boards sit to the left of Luau. Cold start lands on Luau.
