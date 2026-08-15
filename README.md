@@ -68,6 +68,10 @@ Vic runs the Nightly Nine. Nine small goals each day, spread across the games. P
 
 Tap Vic in the lounge to see the board. It resets every day. You do not have to finish all nine.
 
+<p align="center">
+  <img src="assets/shots-web/09-nightly.jpg" width="260" alt="The Nightly Nine">
+</p>
+
 ## Lives
 
 Five hearts. One pool for every game. Lose a round, lose a heart. One heart comes back every 30 minutes, on the wall clock, even if the app is closed.
@@ -83,6 +87,10 @@ One hanging sign to the left of Luau, labeled board. That is the front door. One
 The skeleton is the same on every board. Header, podium for the top three, plank slats for the rest, a pinned YOU bar at the bottom. Tap a row and that player's card opens. Scores queue offline and submit when you are back on the network.
 
 You can play the whole app without signing in. The boards just wait.
+
+<p align="center">
+  <img src="assets/shots-web/10-boards.jpg" width="260" alt="Leaderboards">
+</p>
 
 ## Custom assets
 
