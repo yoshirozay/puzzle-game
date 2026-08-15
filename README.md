@@ -12,13 +12,13 @@ A free offline puzzle bundle for iPhone. You play, you earn points, you decorate
 
 ## The games
 
-The home screen is a hanging-sign rail. Swipe. Lounge and the boards sit to the left of Luau. Cold start lands on Luau.
+The home screen is a hanging-sign rail. Swipe. Lounge and the boards sit to the left of Luau. Everyone starts here and picks a game.
 
 <p align="center">
   <img src="assets/shots-web/01-home.jpg" width="260" alt="Home screen, Luau, game 1 of 6">
 </p>
 
-**Luau** is match-3. Swap pieces to match three or more. Specials clear big chunks of the board. This is the deep one: a 200-level campaign. The first card a new player meets.
+**Luau** is match-3. Swap pieces to match three or more. Specials clear big chunks of the board. This is the deep one: a 200-level campaign.
 
 <p align="center">
   <img src="assets/shots-web/04-luau.jpg" width="260" alt="Luau">
