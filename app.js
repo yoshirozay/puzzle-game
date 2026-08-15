@@ -1,6 +1,7 @@
 /**
  * Tiki Lounge landing — hanging-sign carousel + page wiring.
  * Matches GamePicker hanging boards: wood plank, accent stripe, top-cropped video.
+ * Live at https://tiki-lounge.vercel.app/
  */
 (function () {
   // ── Config ──────────────────────────────────────────────────

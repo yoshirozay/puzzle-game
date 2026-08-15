@@ -1,6 +1,7 @@
 /**
  * Totem lagoon backdrop — web port of TikiBackgroundView / TikiScene.
  * Flat-color bands, slow 90s dusk breath, drifting clouds, wavelets, palms.
+ * Live at https://tiki-lounge.vercel.app/
  */
 (function () {
   const canvas = document.getElementById("lagoon");
